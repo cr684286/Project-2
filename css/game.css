@@ -1,0 +1,29 @@
+.background    { background-image: url("images/ChinaBackground.png");
+                 table-layout: fixed;
+                 border-spacing: 0;   }
+.background td { padding: 0;          }
+.lava          { background: red; }
+.wall          { background: black;   }
+
+.actor  { position: absolute;  }
+.coin   { background-image: url("images/LongShuriken.gif");
+          background-size: 20px 20px;}
+.player { background-image: url("images/Ninja_Male.png");
+          background-size: 20px 32px}
+.floater { background: black;}
+.spikes { background-image: url("images/Steel_Spike.png");
+          background-size: 20px 20px;}
+
+.game {
+  overflow: hidden;
+  max-width: 600px;
+  max-height: 450px;
+  position: relative;
+}
+
+.lost .player {
+  background: rgb(160, 64, 64);
+}
+.won .player {
+  box-shadow: -4px -7px 8px white, 4px -7px 8px white;
+}
